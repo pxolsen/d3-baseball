@@ -13,11 +13,10 @@ __pycache__/
 # Docker
 postgres_data/
 
-# Ignore data files
+# Ignore data files by default but allow folders
 data/raw/*
 data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+
 
 # Poetry
 poetry.lock
