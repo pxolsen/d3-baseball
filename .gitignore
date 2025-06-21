@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Poetry virtual environment (optional if local venv is in project)
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# Docker
+postgres_data/
+
+# S3 data
+data/raw/
+data/processed/
+
+# Poetry
+poetry.lock
