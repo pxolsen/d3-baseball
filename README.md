@@ -23,5 +23,5 @@
     - Save Password [X]
 
 ### DB Migrations (Yoyo)
-- Apply migrations `poetry run yoyo apply`
+- Apply migrations `poetry run yoyo apply -b migrations`
 - Check migrations `poetry run yoyo status`
