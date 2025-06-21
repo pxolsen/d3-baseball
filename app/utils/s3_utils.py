@@ -9,8 +9,8 @@ def upload_file_to_s3(local_path: str, s3_key: str):
     """
     Uploads a local file to S3.
 
-    local_path: path to the file on local disk
-    s3_key: path you want to store the file inside s3 bucket
+    :param local_path: path to the file on local disk
+    :param s3_key: path you want to store the file inside s3 bucket
     """
     try:
         s3_client.upload_file(local_path, BUCKET_NAME, s3_key)
