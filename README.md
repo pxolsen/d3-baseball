@@ -18,7 +18,7 @@
     - Name: anything you want (e.g. Local Docker DB)
     - Host: db
     - Port: 5432
-    - Username: d3_baseball_user
+    - Username: d3_base_user
     - Password: zZzd3baseball!
     - Save Password [X]
 
