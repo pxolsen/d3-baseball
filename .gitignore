@@ -13,9 +13,11 @@ __pycache__/
 # Docker
 postgres_data/
 
-# S3 data
-data/raw/
-data/processed/
+# Ignore data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Poetry
 poetry.lock
