@@ -21,6 +21,11 @@
     - Username: d3_base_user
     - Password: zZzd3baseball!
     - Save Password [X]
+- NOTE: You can use the pgadmin desktop app instead if you want
+    - Host: localhost
+    - Port: 5433
+    - Username: d3_base_user
+    - Password: zZzd3baseball!
 
 ### DB Migrations (Yoyo)
 - Apply migrations `poetry run yoyo apply -b migrations`
